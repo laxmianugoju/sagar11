@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animations</title>
+    <style>
+        div{
+            width: 250px;
+            background-color: aqua;
+            color: black;
+            text-align: center;
+            padding: 25px;
+            animation-name: first;
+            animation-duration: 15s;
+            animation-direction:alternate-reverse ;
+            position: relative;
+            animation-iteration-count:5 ;
+            animation-delay:5s ;
+            animation-timing-function: linear;
+            animation-fill-mode: backward;
+            
+            
+        }
+        @keyframes first{
+            0%{background-color: blue; color: brown; left: 0px; top: 0px;}
+            25%{background-color: yellow; color: rgb(43, 226, 150);left: 200px; top: 100px;}
+            50%{background-color: rgb(199, 141, 17); color: rgb(165, 42, 104);left: 50px; top: 150px;}
+            75%{background-color: rgb(216, 194, 194); color: rgba(226, 147, 43, 0.082);left: 130px; top: 120px;}
+            100%{background-color: black; color: blueviolet; left: 0px; top: 0px;}
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div>manasasagar</div>
+    
+</body>
+</html>

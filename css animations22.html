@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animations 22</title>
+    <style>
+        div{
+            width: 400px;
+            height: 200px;
+            background-color: yellowgreen;
+            text-align:center;
+            color: black;
+            animation-name: sagar;
+            animation-duration: 15s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 3;
+            animation-delay: 3s;
+            animation-timing-function:linear ;
+            position: relative;
+        }
+        @keyframes sagar{
+            0%{background-color: aqua; color: red; left: 0px; top: 0px;}
+            25%{background-color: rgb(145, 137, 133); color: rgb(179, 173, 174); left: 200px; top: 200px;}
+             50%{background-color: rgb(200, 255, 0); color: rgba(255, 0, 0, 0); left: 150px; top: 150px;}
+             75%{background-color: #3a3b3b; color: red; left: 250px; top: 250px;}
+             100%{background-color: aqua; color: #7a4444; left: 0px; top: 0px;}
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div>ratnachary</div>
+</body>
+</html>
